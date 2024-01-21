@@ -1,0 +1,133 @@
+/* Dropdown Button */
+.dropbtn {
+    background-color:white;
+    padding: 3px;
+    font-size: 6px;
+    border: solid 2px violet;
+    border-radius: 10px;
+  }
+  .divProfileMenu{
+    border-bottom: solid 0.5px gray;
+    
+  }
+  .profilePicMenu{
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+    float:left;
+    
+    
+  }
+  .pUsernameMenu{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight:bold;
+     
+   }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    left:95%;
+    top: 8px;
+    position:absolute;
+    z-index: 4;
+   
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdownContent {
+    display: none;
+    position: relative;
+    right:50%;
+    background-color: #f1f1f1;
+    min-width: 200px;
+   
+  }
+  
+  /* Links inside the dropdown */
+  .dropdownContent .menuLink {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdownContent {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: pink; cursor: pointer;}
+
+  .dropdownContent .menuLink:hover {background-color: #e6ccff;}
+
+   
+
+  .imgMenu{
+    width:40%
+ } 
+  @media only screen and (max-width: 600px){
+    /* For mobile phones */
+    .imgMenu{
+        
+        margin: 2px;
+    }
+    .dropbtn{
+        width:50px;
+    }
+
+    .dropdown{
+      /* margin-right: 20%; */
+      left: 80%;
+    }
+
+    .dropdownContent{
+      min-width: 200px;
+    }
+    
+    }
+    
+ 
+
+@media only screen and (min-width: 601px){
+    /* For tablets */
+    .imgMenu{
+        
+        margin: 4px;
+    }
+    .dropdown{
+      /* margin-right: 20%; */
+      left: 85%;
+    }
+
+    .dropbtn{
+        width:70px;
+    }
+    .dropdownContent{
+      min-width: 200px;
+    }
+    
+}
+
+@media only screen and (min-width: 800px){
+    /* For desktops */
+    .imgMenu{
+        
+        margin: 6px;
+    }
+    .dropbtn{
+        width:70px;
+    }
+
+    .dropdown{
+      /* margin-right: 20%; */
+      left: 90%;
+    }
+
+    
+   
+    
+    
+}

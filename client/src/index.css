@@ -1,0 +1,38 @@
+* {box-sizing: border-box}
+
+body {
+  margin: 0;
+  background-image: url("../public/background.png") ;
+  background-attachment: fixed;
+  background-repeat: no-repeat; background-size: cover;
+ 
+ 
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  list-style: none;
+}
+
+
+@media only screen and (max-width: 600px){
+  /* For mobile phones */
+  body{background-repeat: repeat-y; background-size: auto; }
+  
+}
+
+@media only screen and (min-width: 601px){
+
+   
+}
+
+@media only screen and (min-width: 800px){
+  
+  
+  
+}

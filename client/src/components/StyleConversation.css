@@ -1,0 +1,490 @@
+
+.containerConv{
+    width: 60%; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 70px;
+    border: 3px solid black;
+    background-color:lightgoldenrodyellow;
+    border-radius: 10px;
+    position: relative;  
+}
+
+
+
+
+.imgHeaderConv{
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+    float:left;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: auto
+    
+
+}
+
+.imgConversation {
+    width: 65px;
+    height: 65px;
+    margin-right: 10px;
+    
+    border-radius: 100%;
+    vertical-align: middle; 
+    border-style: none; 
+  
+}
+.spanConversation{
+    text-align: left;
+    
+    display:table-row;
+}
+/* Styling the msg-header container */
+.msg-header {
+    
+    border:none;
+    width: 100%;
+    height: 10%;
+    
+    display: inline-block;
+    background-color: #efefef;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* Styling the profile picture */
+.msgimg {
+    float: left;
+    border-radius: 100%;
+}
+
+
+
+/* styling user-name */
+.active {
+   
+    float: left;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 0 5px;
+    height: 10%;
+ 
+}
+/* Styling the inbox */
+.chat-page {
+    padding: 0 0 50px 0;
+}
+
+.msg-inbox {
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+   
+    
+}
+
+
+.chats {
+    padding: 30px 15px 0 25px;
+}
+
+
+
+/* Styling the msg-bottom container */
+ .msg-bottom {
+        border-top: 1px solid #ccc;
+        
+    }
+/* Styling the input field */
+    .input-group {
+        float: right;
+        margin-top: 13px;
+        margin-right: 20px;
+        outline: none !important;
+        border-radius: 20px;
+        width: 61% !important;
+        
+    }
+    
+
+    
+    
+    
+   
+    
+   
+    
+    
+/* Styling the avatar  */
+.received-chats-img {
+    
+    margin: 10px;
+
+    float: left;
+} 
+.received-chats{
+    overflow: hidden;
+}
+
+.received-msg {
+    display: inline-block;
+    
+    vertical-align: top;
+    width: 92%;
+}
+.received-msg-inbox {
+    width: 57%;
+    float:left;
+}
+
+.received-msg-inbox p {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 15px;
+    margin-left: 1rem;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 25%) 0px 5px 5px 2px;
+}
+    p {
+    overflow-wrap: break-word;
+}
+
+/* Styling the msg-sent time  */
+.time {
+    color: #777;
+    display: block;
+    font-size: 12px;
+    margin: 8px 0 0;
+}
+.outgoing-chats {
+    overflow: hidden;
+    
+}
+
+.outgoing-chats-msg p {
+    background-color: #3a12ff;
+    background-image: linear-gradient(45deg, #ee087f 0%, #DD2A7B 25%, #9858ac 50%, #8134AF 75%, #515BD4 100%);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: rgb(0 0 0 / 25%) 0px 2px 5px 2px;
+}
+.outgoing-chats-msg {
+        float: right;
+        width: 57%;
+    }
+
+/* Styling the avatar */
+.outgoing-chats-img {
+    
+    margin: 10px;
+    float: right;
+    
+}
+.outgoing-msg{
+    display: inline-block;
+    vertical-align: top;
+    width: 92%;
+}
+
+.textarea-conv{
+    height:90px;
+    background-color:#f2e5ff;
+    border-color: none !important;
+    border-radius: 10px;
+   
+    
+}
+.textarea-conv:focus{
+    background-color: #ffffe6;
+    
+    outline:  1px solid pink;
+}
+
+
+
+ 
+
+  .review-left {
+    width: 57%;
+}
+
+.review-left p {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 15px;
+    margin-left: 1rem;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 25%) 0px 5px 5px 2px;
+}
+  
+.imgReview{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    
+    float: left;
+    border-radius: 100%;
+    vertical-align: top;
+   
+}
+
+.imgConvList{
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    
+
+    float:left;
+    border-radius: 100%;
+    margin-bottom: auto;
+    
+}
+.liConversation{
+    padding-bottom:30px;
+    margin-bottom: 10px;
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px pink;
+    padding-left: 10px;
+    padding-top: 10px;
+
+   
+    
+    
+}
+.liConversation:hover{
+    background-color: #e6ccff;
+}
+.containerAllConv{
+    width: 60%; 
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 70px;
+    border: 3px solid black;
+    background-color:lightgoldenrodyellow;
+    border-radius: 10px;
+    position: relative;
+}
+
+.newMessage{color: red;}
+
+.textarea-prod-review{
+    height:90px;
+    background-color:#f2e5ff;
+    border-color: none !important;
+    border-radius: 10px;
+    margin-bottom: 0;
+   
+    
+  }
+  .textarea-prod-review:focus{
+    background-color: #ffffe6;
+    
+    border:  none !important;
+    outline: 2px solid pink;
+  
+  }
+  .prod-review{
+ 
+    width:90%;
+    
+  }
+  
+
+.textarea-cust-review{
+    height:90px;
+    width: 60%;
+    background-color:#f2e5ff;
+    border-color: none !important;
+    border-radius: 10px;
+    margin-bottom: 0;
+    margin-left: 20px;
+
+    
+}
+.textarea-cust-review:focus{
+    background-color: #ffffe6;
+    
+    border:  none !important;
+    outline: 2px solid pink;
+
+}
+.cust-review{
+
+    width:90%;
+    
+}
+  
+  .button-review{
+    margin-top: none;
+    padding-top: 0;
+    /* float:right; */
+  }
+.cust-review-left {
+    width: 60%;
+}
+
+.cust-review-left p {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 15px;
+    margin-left: 1rem;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: rgb(0 0 0 / 25%) 0px 5px 5px 2px;
+}
+
+.button-cust-review{
+    margin-top: none;
+    padding-top: 0;
+    margin-left: 20px;
+    
+  }
+@media only screen and (max-device-width: 800px) {
+    .containerConv{width: 70%; margin-left: auto; margin-right: auto; margin-top: 70px;}
+    .imgHeaderConv{
+       
+        width: 55px;
+        height: 55px;
+       
+       
+        
+    
+    }
+    .time {
+        font-size: 15px;
+    }
+    .imgConversation {
+        width: 50px;
+        height: 50px;
+    }
+    .msg-header {
+        height: 5%;
+    }
+    
+    .received-msg-inbox p {
+        font-size: 16px;
+    }
+    .outgoing-chats-msg p {
+        font-size: 16px;
+    }
+    
+
+    .received-msg-inbox {
+        width: 80%;
+        padding-right: 30px;
+    }
+    .outgoing-chats-msg{
+        width: 80%;
+        padding-left: 30px;
+    }
+   
+    .review-left{
+        width: 80%;
+    }
+    .imgReview{
+        width:45px;
+        height:45px;
+    }
+    .containerAllConv{
+        width: 90%; 
+    }
+
+    .textarea-cust-review{
+        width: 80%;
+      }
+
+    .cust-review-left {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-device-width: 600px) {
+    .containerConv{width:90%; margin-left: auto; margin-right: auto; margin-top: 40px; }
+    .imgHeaderConv{
+       
+        width: 50px;
+        height: 50px;
+       
+       
+        
+    
+    }
+    
+    .time {
+        font-size: 11px;
+    }
+
+    .imgConversation {
+        width: 40px;
+        height: 40px;;
+    }
+    .msg-header {
+        height: 5%;
+    }
+    
+    .outgoing-chats-msg p {
+        font-size: 12px;
+    }
+    .received-msg-inbox p {
+        
+        font-size: 12px;
+       
+    }
+
+    .received-msg-inbox {
+        width: 90%;
+        padding-right: 30px;
+    }
+
+    .outgoing-chats-msg{
+        width: 90%;
+        padding-left: 30px;
+    }
+    
+    .review-left{
+        width: 95%;
+    }
+
+    .imgReview{
+        width: 40px;
+        height: 40px;
+    }
+    .containerAllConv{
+        width: 90%; 
+    }
+    .liConversation{
+        padding-bottom:30px;
+        margin-bottom: 10px;
+        
+        background-color: white;
+        border-radius: 10px;
+        border: solid 1px pink;
+        padding-left: 10px;
+        padding-top: 10px;
+    
+       
+        
+        
+    }
+    .textarea-cust-review{
+        width: 90%;
+      }
+
+    .cust-review-left {
+        width: 90%;
+    }
+}

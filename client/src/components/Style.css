@@ -1,0 +1,351 @@
+
+
+
+
+/* Add padding to the inside container */
+.insideContainer {
+  padding: 16px;
+  
+  
+}
+
+fieldset{
+ 
+  border: none !important;
+}
+
+
+.whiteBackground{
+  background-color: white;
+  position: absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  
+}
+.tdSearchBar{
+  width: 90%;
+  padding: 5%;
+  margin:auto;
+}
+
+
+.tableSearchBar{
+  background-color: #f5f5f0;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  
+}
+ textarea{
+  margin: 5px 0 22px 0;
+  background: #f1f1f1;
+  width: 100%;
+  resize: none;
+  
+ }
+
+
+
+/* Set a style for the submit/register button */
+.formbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+button:disabled, button[disabled] {
+  background-color: gray;
+}
+
+/* Add a blue text color to links */
+.links {
+  color: dodgerblue;
+}
+
+/* Center the text of the "sign in" section */
+.otherOption{
+  
+  text-align: center;
+}
+
+
+.container{
+ 
+    border: 3px solid black;
+    background-color:lightgoldenrodyellow;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+ 
+    
+}
+
+.required::after {
+    content: '*';
+    color: red;
+  }
+
+
+
+
+.imgSmall{width: 100%; margin-top:30px; }
+
+#price{width: 40%}
+
+.currencyUnit{
+  width: 40%;
+  margin: 5px;
+  
+}
+
+#pictures{
+  display:none;
+}
+
+#file-input-label{
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 4%;
+  background-color: white;
+}
+
+
+  
+  .imgResults{
+  
+   
+    width: 90%;
+    
+    object-fit: cover;
+    
+  }
+      
+  .spanResults{
+    display: inline-block;
+    padding-left: 5%;
+    padding-top: 10px;
+    width: 100%;
+    
+  }
+
+    
+
+.containerResults{
+  visibility: hidden;
+  padding: 16px;
+  background-color: lightgoldenrodyellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:90%; 
+  margin-left: 5%; 
+  margin-right: 5%; 
+  margin-top: 150px;
+  
+  
+
+}
+.containerSearchBar{
+  position: absolute;
+  
+  left: 0;
+  right: 0;
+  top: 50px;
+  z-index: 3;
+}
+
+.containerSingleResult{
+  background-color: white;
+  
+  
+}
+
+#emailContact{
+  width: 48%;
+  margin-right: 20px;
+}
+
+#phoneContact{
+  margin-right: 20px;
+  
+  width: 48%;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+    /* For mobile phones */
+   
+
+    button{
+      font-size: small;
+    }
+    
+    .container{width:90%; margin-left: auto; margin-right: auto; margin-top: 40px; }
+    
+    .imgResults{
+     
+      width: 90%;
+      margin:5%;
+      
+    }
+    .containerSingleResult{
+      width:100%;
+      margin-bottom: 30px;
+    }
+   
+
+    }
+    
+  .editbtn{
+    background-color: #0099cc;
+    float:left;
+    margin-left: 10px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    opacity: 0.9;
+  }
+
+  .editbtnMyProducts{
+    background-color: #0099cc;
+  
+    margin-left: 10px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+    opacity: 0.9;
+  }
+.deletebtn{
+  background-color: #ff3333;
+  float:left;
+  margin-top:0;
+  
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+  margin-bottom: 4px;
+  opacity: 0.9;
+}
+
+
+.deletebtnMyProducts{
+  background-color: #ff3333;
+ 
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  margin-left: 8px;
+  opacity: 0.9;
+}
+
+
+#success{
+ 
+  visibility: hidden;
+  background-color: white;
+  
+  color:green;
+ 
+  padding: 8px;
+
+
+  
+ 
+
+
+}
+
+.link-react{
+  color:black;
+  text-decoration: none;
+}
+@media only screen and (min-width: 601px){
+    /* For tablets */
+    .container{width: 70%; margin-left: auto; margin-right: auto; margin-top: 70px;}
+   
+    .imgResults{
+     
+      margin:5%;
+    }
+    .containerSingleResult{
+      display: inline-block;
+      
+     
+      height: 70vw;
+      vertical-align: top;
+      
+      width:40%;
+      margin:5%;
+     
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width: 800px){
+    /* For desktops */
+    .container{width: 60%; margin-left: auto; margin-right: auto; margin-top: 70px;};
+  
+    .imgResults{
+     
+      margin:5%;
+    }
+    .containerSingleResult{
+      display: inline-block;
+     
+      width:25%;
+      height: 50vw;
+      vertical-align: top;
+      
+
+      margin:4.16%;
+
+    }
+
+    
+   
+   
+}
